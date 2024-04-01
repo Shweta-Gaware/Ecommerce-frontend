@@ -1,0 +1,92 @@
+.shopcategory-banner{
+display:block;
+margin:10px auto;
+width:82%;
+}
+.shopcatoegory-indexSort{
+    display: flex;
+    margin:0px 170px;
+    justify-content: space-between;
+    align-items: center;
+}
+.shopcategory-sort{
+   padding:2px 50px;
+   border: 1px solid #888;
+   border-radius:20px;
+   
+}
+.shopcatoegory-indexSort p span{
+    font-weight: 600;
+
+}
+.shopcategory-products{
+    margin: 20px 170px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 500px 500px;
+    row-gap: 80px;
+    gap:30px;
+}
+.shopcategory-loadmore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 430px auto;
+    width: 233px;
+    height: 69px;
+   border-radius: 75px;
+   background: #ededed;
+   color: #787878;
+   font-size: 18px;
+   font-weight: 500;
+   margin-left: 800px;
+}
+
+  /*  Banner */
+
+  .Banner{
+width:65%;
+height:60vh;
+display: flex;
+margin:auto;
+padding: 0px 100px;
+margin-bottom: 150px;
+margin-top: 50px;
+background: linear-gradient(100deg, orange 10%, white 100%);
+
+}
+.Banner-left{
+flex:1;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.Banner-left h1{
+    color: #171717;
+    font-size: 80px;
+    font-weight: 600;
+}
+.Banner-left p{
+    color: #171717;
+    font-size: 40px;
+    font-weight: 600;
+}
+.Banner-left button{
+    width: 282px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: #ff4141;
+    border: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.Banner-right{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 0px;
+}
