@@ -20,7 +20,7 @@ const Footer = () => {
       <li>About</li>
       <li>Contact</li>
      </ul>
-     
+     {/* test comment */}
      <div className='footer-social-icon'>
       <div className='footer-icon-container'>
       <img src={instagram_icon} style={{width:"60px", height:"60px"}}  alt=''/>
